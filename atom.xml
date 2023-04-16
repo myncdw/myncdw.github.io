@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>myncdw</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-04-16T06:38:20.676Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>myncdw</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>建站成功</title>
+    <link href="http://example.com/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/"/>
+    <id>http://example.com/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/</id>
+    <published>2023-04-16T06:16:34.685Z</published>
+    <updated>2023-04-16T06:38:20.676Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="建站成功"><a href="#建站成功" class="headerlink" title="建站成功"></a>建站成功</h1><h2 id="挫折"><a href="#挫折" class="headerlink" title="挫折"></a>挫折</h2><p>1.刚开始没找到GitHub page这个选项，以为是网络问题，然后花了30分钟的时间发现是我仓库名少打了一个点；</p><p>2.设置next主题的时候在挑选主题时老是选2个，然后报错的时候还不知道原因，在网上找了半天没结果，最后才发现这个问题；</p><p>3.买域名的时候因为没有经验，顺手买了一个阿里云的icp备案服务码，结果问了才知道不要买；</p><p>4.最令人崩溃的是快要收尾的时候不知道犯了什么错，网页打开一片白，只好从头再来；</p><p>5.从头再来之后部署来必力，在填uid的地方多打了一个空格，然后花了2个小时来找问题。</p><h2 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h2><p>成就感十足，感觉自己完成了一件大事（对于一个在上学的初三学生来说，用这么点时间来做一个个人博客太难了）。</p><p>其实建个人博客这个想法很久之前我就有了，只不过当时没有这个能力（懒），所以一直拖到现在。之前在<a href="http://www.zhuzi.me/">竹子建站</a>上面做过一个小网站，但是感觉自己没干啥事，所以做完这个网站时候我并没有满足。</p><h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><p>感谢知乎大佬<a href="https://www.zhihu.com/people/mai-nv-hai-de-xiao-huo-chai-35-19">枫叶</a>的教程，写的特别详细<a href="https://zhuanlan.zhihu.com/p/102592286">这是教程</a>。</p><p>还有支持我的家人们</p><p>最后是那些帮忙测试的同学</p><p>谢谢大家的支持！</p>]]></content>
+    
+    
+    <summary type="html">建站成功！</summary>
+    
+    
+    
+    <category term="开心的事" scheme="http://example.com/categories/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%8B/"/>
+    
+    
+    <category term="建站" scheme="http://example.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    
+  </entry>
+  
+</feed>
