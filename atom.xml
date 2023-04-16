@@ -3,11 +3,11 @@
   <title>myncdw</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://myncdw.cn/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://myncdw.cn/"/>
   <updated>2023-04-16T07:28:31.558Z</updated>
-  <id>http://example.com/</id>
+  <id>https://myncdw.cn/</id>
   
   <author>
     <name>myncdw</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>验证器</title>
-    <link href="http://example.com/2023/04/16/%E9%AA%8C%E8%AF%81%E5%99%A8/"/>
-    <id>http://example.com/2023/04/16/%E9%AA%8C%E8%AF%81%E5%99%A8/</id>
+    <link href="https://myncdw.cn/2023/04/16/%E9%AA%8C%E8%AF%81%E5%99%A8/"/>
+    <id>https://myncdw.cn/2023/04/16/%E9%AA%8C%E8%AF%81%E5%99%A8/</id>
     <published>2023-04-16T06:52:12.493Z</published>
     <updated>2023-04-16T07:28:31.558Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="工具" scheme="http://example.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://myncdw.cn/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="工具" scheme="http://example.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://myncdw.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>建站成功</title>
-    <link href="http://example.com/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/"/>
-    <id>http://example.com/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/</id>
+    <link href="https://myncdw.cn/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/"/>
+    <id>https://myncdw.cn/2023/04/16/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/</id>
     <published>2023-04-16T06:16:34.685Z</published>
     <updated>2023-04-16T07:28:20.766Z</updated>
     
@@ -51,10 +51,10 @@
     
     
     
-    <category term="开心的事" scheme="http://example.com/categories/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%8B/"/>
+    <category term="开心的事" scheme="https://myncdw.cn/categories/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%8B/"/>
     
     
-    <category term="建站" scheme="http://example.com/tags/%E5%BB%BA%E7%AB%99/"/>
+    <category term="建站" scheme="https://myncdw.cn/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   
