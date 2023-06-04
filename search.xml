@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>字符串转Unicode</title>
+      <link href="/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="字符串转Unicode（python）"><a href="#字符串转Unicode（python）" class="headerlink" title="字符串转Unicode（python）"></a>字符串转Unicode（python）</h1><h2 id="为什么要做这个"><a href="#为什么要做这个" class="headerlink" title="为什么要做这个"></a>为什么要做这个</h2><p>事情的起因很简单，我买了一张专辑，叫做“繋(jì)宙歌”，然后这个“繋”字我在微软输入法里面怎么都找不到，最后我就想着能不能用Unicode的方式把它打出来</p><h2 id="在知道Unicode码的情况下怎么打出这个字"><a href="#在知道Unicode码的情况下怎么打出这个字" class="headerlink" title="在知道Unicode码的情况下怎么打出这个字"></a>在知道Unicode码的情况下怎么打出这个字</h2><p>非常简单，只需要输入“VUC”然后紧接着直接输入对应的Unicode码即可（十六进制）</p><h2 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h2><h3 id="字符串转Unicode"><a href="#字符串转Unicode" class="headerlink" title="字符串转Unicode"></a>字符串转Unicode</h3><p>首先介绍一个基本的函数：<code>ord()</code>：返回一个字符的ASCII码数值</p><p>举个例子</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">word = <span class="string">&#x27;东&#x27;</span></span><br><span class="line">result = <span class="built_in">ord</span>(word)</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure><p>这样它就会输出“东”这个字的ASCII编码值，是19996</p><p>但是前面说了，VUC只能用十六进制，所以我们还要转为16进制</p><p>这里再介绍一个基本的函数：<code>hex()</code></p><p>它的作用就很简单了，就是将整数转换为十六进制字符串</p><p>所以完整的代码为：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">word = <span class="string">&#x27;东&#x27;</span></span><br><span class="line">result = <span class="built_in">hex</span>(<span class="built_in">ord</span>(word))</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure><p>这样就会输出对应的十六进制的Unicode码，为0x4e1c</p><h3 id="Unicode转字符串"><a href="#Unicode转字符串" class="headerlink" title="Unicode转字符串"></a>Unicode转字符串</h3><p>首先要了解一个基本的函数：<code>chr()</code>：将整数转换为对应的ASCII字符</p><p>举个例子</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">unicode = <span class="number">19996</span></span><br><span class="line">word = <span class="built_in">chr</span>(unicode)</span><br><span class="line"><span class="built_in">print</span>(word)</span><br></pre></td></tr></table></figure><p>这样他就会输出“东”</p><p>但是如果你只知道这个字的十六进制的Unicode编码的话，这个方法就不太行了</p><p>所以我们可以使用这个函数：<code>eval()</code>：执行一个字符串表达式，并返回表达式的值</p><p>它可以执行字符串里面的代码，如:</p><p><code>eval(&quot;print(&#39;1&#39;)&quot;)</code>输出的就是1</p><p>或者单纯的把参数中最外层引号去掉</p><p>这里我们要的是十六进制的数字，所以直接使用<code>int()</code>是不行的</p><p>我们要稍微做一个修改</p><p><code>int(x, 16)</code></p><p>x就是你的数字，16就是对应的进制，比如：<code>int(&#39;4e1c&#39;, 16)</code></p><p>所以完整的代码就是：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">unicode = <span class="built_in">int</span>(<span class="string">&#x27;4e1c&#x27;</span>, <span class="number">16</span>)</span><br><span class="line">Unicode = <span class="built_in">hex</span>(Unicode)</span><br><span class="line">Unicode = <span class="built_in">eval</span>(Unicode)</span><br><span class="line">word = <span class="built_in">chr</span>(Unicode)</span><br><span class="line"><span class="built_in">print</span>(word)</span><br></pre></td></tr></table></figure><p>这样，它就会输出东这个字了</p><p>那么问题来了，明明我已经存储了对应的十六进制码了，为什么我还要转换这么多次呢？</p><p>1.虽然我们存储的是十六进制的数据，但是他还是属于int类型，而eval传入只能是str类型</p><p>2.如果使用str类型，就会报错invalid decimal literal，在这里是因为python默认识别的是10进制，然而十进制中并没有字母，如果恰好你的Unicode中没有字母，那么它的值也发生的变化</p><p>3.用<code>hex()</code>可以完美的避开上面的问题</p><h3 id="现成能用的下载链接"><a href="#现成能用的下载链接" class="headerlink" title="现成能用的下载链接"></a>现成能用的下载链接</h3><p><a href="https://github.com/myncdw/str2unicode/releases">GitHub</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 奇怪的工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 奇怪的工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数学教学工具</title>
       <link href="/2023/04/21/%E6%95%B0%E5%AD%A6%E6%95%99%E5%AD%A6%E5%B7%A5%E5%85%B7/"/>
       <url>/2023/04/21/%E6%95%B0%E5%AD%A6%E6%95%99%E5%AD%A6%E5%B7%A5%E5%85%B7/</url>

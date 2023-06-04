@@ -22,19 +22,20 @@
     var CONFIG = {"hostname":"myncdw.cn","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="你要做的是你的你自己，而非别人的你自己">
-<meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="https://myncdw.cn/categories/index.html">
+  <meta name="description" content="使用python将字符串转为Unicode">
+<meta property="og:type" content="article">
+<meta property="og:title" content="字符串转Unicode">
+<meta property="og:url" content="https://myncdw.cn/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/index.html">
 <meta property="og:site_name" content="myncdw">
-<meta property="og:description" content="你要做的是你的你自己，而非别人的你自己">
+<meta property="og:description" content="使用python将字符串转为Unicode">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-16T04:00:43.000Z">
-<meta property="article:modified_time" content="2023-04-16T06:19:51.988Z">
+<meta property="article:published_time" content="2023-06-04T03:43:51.537Z">
+<meta property="article:modified_time" content="2023-06-04T03:43:44.615Z">
 <meta property="article:author" content="myncdw">
+<meta property="article:tag" content="奇怪的工具">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://myncdw.cn/categories/">
+<link rel="canonical" href="https://myncdw.cn/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/">
 
 
 <script id="page-configurations">
@@ -42,13 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类 | myncdw
-</title>
+  <title>字符串转Unicode | myncdw</title>
   
 
 
@@ -199,55 +199,166 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
-      <header class="post-header">
-
-<h1 class="post-title" itemprop="name headline">分类
-</h1>
-
-<div class="post-meta">
   
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://myncdw.cn/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="myncdw">
+      <meta itemprop="description" content="你要做的是你的你自己，而非别人的你自己">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="myncdw">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          字符串转Unicode
+        </h1>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2023-06-04 11:43:51 / 修改时间：11:43:44" itemprop="dateCreated datePublished" datetime="2023-06-04T11:43:51+08:00">2023-06-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A5%87%E6%80%AA%E7%9A%84%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">奇怪的工具</span></a>
+                </span>
+            </span>
+
+          
+            <div class="post-description">使用python将字符串转为Unicode</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="字符串转Unicode（python）"><a href="#字符串转Unicode（python）" class="headerlink" title="字符串转Unicode（python）"></a>字符串转Unicode（python）</h1><h2 id="为什么要做这个"><a href="#为什么要做这个" class="headerlink" title="为什么要做这个"></a>为什么要做这个</h2><p>事情的起因很简单，我买了一张专辑，叫做“繋(jì)宙歌”，然后这个“繋”字我在微软输入法里面怎么都找不到，最后我就想着能不能用Unicode的方式把它打出来</p>
+<h2 id="在知道Unicode码的情况下怎么打出这个字"><a href="#在知道Unicode码的情况下怎么打出这个字" class="headerlink" title="在知道Unicode码的情况下怎么打出这个字"></a>在知道Unicode码的情况下怎么打出这个字</h2><p>非常简单，只需要输入“VUC”然后紧接着直接输入对应的Unicode码即可（十六进制）</p>
+<h2 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h2><h3 id="字符串转Unicode"><a href="#字符串转Unicode" class="headerlink" title="字符串转Unicode"></a>字符串转Unicode</h3><p>首先介绍一个基本的函数：<code>ord()</code>：返回一个字符的ASCII码数值</p>
+<p>举个例子</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">word = <span class="string">&#x27;东&#x27;</span></span><br><span class="line">result = <span class="built_in">ord</span>(word)</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure>
+
+<p>这样它就会输出“东”这个字的ASCII编码值，是19996</p>
+<p>但是前面说了，VUC只能用十六进制，所以我们还要转为16进制</p>
+<p>这里再介绍一个基本的函数：<code>hex()</code></p>
+<p>它的作用就很简单了，就是将整数转换为十六进制字符串</p>
+<p>所以完整的代码为：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">word = <span class="string">&#x27;东&#x27;</span></span><br><span class="line">result = <span class="built_in">hex</span>(<span class="built_in">ord</span>(word))</span><br><span class="line"><span class="built_in">print</span>(result)</span><br></pre></td></tr></table></figure>
+
+<p>这样就会输出对应的十六进制的Unicode码，为0x4e1c</p>
+<h3 id="Unicode转字符串"><a href="#Unicode转字符串" class="headerlink" title="Unicode转字符串"></a>Unicode转字符串</h3><p>首先要了解一个基本的函数：<code>chr()</code>：将整数转换为对应的ASCII字符</p>
+<p>举个例子</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">unicode = <span class="number">19996</span></span><br><span class="line">word = <span class="built_in">chr</span>(unicode)</span><br><span class="line"><span class="built_in">print</span>(word)</span><br></pre></td></tr></table></figure>
+
+<p>这样他就会输出“东”</p>
+<p>但是如果你只知道这个字的十六进制的Unicode编码的话，这个方法就不太行了</p>
+<p>所以我们可以使用这个函数：<code>eval()</code>：执行一个字符串表达式，并返回表达式的值</p>
+<p>它可以执行字符串里面的代码，如:</p>
+<p><code>eval(&quot;print(&#39;1&#39;)&quot;)</code>输出的就是1</p>
+<p>或者单纯的把参数中最外层引号去掉</p>
+<p>这里我们要的是十六进制的数字，所以直接使用<code>int()</code>是不行的</p>
+<p>我们要稍微做一个修改</p>
+<p><code>int(x, 16)</code></p>
+<p>x就是你的数字，16就是对应的进制，比如：<code>int(&#39;4e1c&#39;, 16)</code></p>
+<p>所以完整的代码就是：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">unicode = <span class="built_in">int</span>(<span class="string">&#x27;4e1c&#x27;</span>, <span class="number">16</span>)</span><br><span class="line">Unicode = <span class="built_in">hex</span>(Unicode)</span><br><span class="line">Unicode = <span class="built_in">eval</span>(Unicode)</span><br><span class="line">word = <span class="built_in">chr</span>(Unicode)</span><br><span class="line"><span class="built_in">print</span>(word)</span><br></pre></td></tr></table></figure>
+
+<p>这样，它就会输出东这个字了</p>
+<p>那么问题来了，明明我已经存储了对应的十六进制码了，为什么我还要转换这么多次呢？</p>
+<p>1.虽然我们存储的是十六进制的数据，但是他还是属于int类型，而eval传入只能是str类型</p>
+<p>2.如果使用str类型，就会报错invalid decimal literal，在这里是因为python默认识别的是10进制，然而十进制中并没有字母，如果恰好你的Unicode中没有字母，那么它的值也发生的变化</p>
+<p>3.用<code>hex()</code>可以完美的避开上面的问题</p>
+<h3 id="现成能用的下载链接"><a href="#现成能用的下载链接" class="headerlink" title="现成能用的下载链接"></a>现成能用的下载链接</h3><p><a target="_blank" rel="noopener" href="https://github.com/myncdw/str2unicode/releases">GitHub</a></p>
+
+    </div>
+
+    
+    
+    
+
+    
+      <div>
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:24px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      </div>
+    
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>myncdw
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://myncdw.cn/2023/06/04/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%92%8CUnicode%E8%BD%AC%E6%8D%A2/" title="字符串转Unicode">https://myncdw.cn/2023/06/04/字符串和Unicode转换/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
 </div>
 
-</header>
 
-      
-      
-      
-      <div class="post-body">
-          <div class="category-all-page">
-            <div class="category-all-title">
-              目前共计 3 个分类
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A5%87%E6%80%AA%E7%9A%84%E5%B7%A5%E5%85%B7/">奇怪的工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%B7%A5%E5%85%B7/">工具</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BC%80%E5%BF%83%E7%9A%84%E4%BA%8B/">开心的事</a><span class="category-list-count">1</span></li></ul>
-            </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%A5%87%E6%80%AA%E7%9A%84%E5%B7%A5%E5%85%B7/" rel="tag"># 奇怪的工具</a>
           </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
 
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/04/21/%E6%95%B0%E5%AD%A6%E6%95%99%E5%AD%A6%E5%B7%A5%E5%85%B7/" rel="prev" title="数学教学工具">
+      <i class="fa fa-chevron-left"></i> 数学教学工具
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
     
-    
-    
+  </article>
+  
+  
+  
+
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC81ODM1Ny8zNDgyMA=="></div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -294,6 +405,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%ACUnicode%EF%BC%88python%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">字符串转Unicode（python）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要做这个</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9C%A8%E7%9F%A5%E9%81%93Unicode%E7%A0%81%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%E6%80%8E%E4%B9%88%E6%89%93%E5%87%BA%E8%BF%99%E4%B8%AA%E5%AD%97"><span class="nav-number">1.2.</span> <span class="nav-text">在知道Unicode码的情况下怎么打出这个字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81%E9%83%A8%E5%88%86"><span class="nav-number">1.3.</span> <span class="nav-text">代码部分</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%ACUnicode"><span class="nav-number">1.3.1.</span> <span class="nav-text">字符串转Unicode</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unicode%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">1.3.2.</span> <span class="nav-text">Unicode转字符串</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%8E%B0%E6%88%90%E8%83%BD%E7%94%A8%E7%9A%84%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5"><span class="nav-number">1.3.3.</span> <span class="nav-text">现成能用的下载链接</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
