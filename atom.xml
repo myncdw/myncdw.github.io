@@ -6,7 +6,7 @@
   <link href="https://myncdw.cn/atom.xml" rel="self"/>
   
   <link href="https://myncdw.cn/"/>
-  <updated>2023-06-04T03:43:44.615Z</updated>
+  <updated>2023-06-16T09:49:45.221Z</updated>
   <id>https://myncdw.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中考加油</title>
+    <link href="https://myncdw.cn/2023/06/16/%E4%B8%AD%E8%80%83%E5%8A%A0%E6%B2%B9/"/>
+    <id>https://myncdw.cn/2023/06/16/%E4%B8%AD%E8%80%83%E5%8A%A0%E6%B2%B9/</id>
+    <published>2023-06-16T09:26:07.644Z</published>
+    <updated>2023-06-16T09:49:45.221Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="中考加油"><a href="#中考加油" class="headerlink" title="中考加油"></a>中考加油</h1><p>其实在我个人的角度来看，这初中三年还是很漫长的。特别是初三，别人都说初三时间非常快，眨眼之间就到中考了。</p><p>我觉得中考的到来并没有别人所说、所感的那么紧张、吓人（也不是完全没有），我认为这就是一个必然的事情，所以我并没有那么紧张。</p><p>其实这篇文章在我一个月之前就想要写了，但是真要写的时候反而不知道写点啥了。</p><p>相信自己，相信过去，希望未来，希望当下。</p><p>不奢望脚踏锦绣之路，只希望脚踩踏实之梯。</p><p>最后祝自己和其他初三学子中考加油！</p>]]></content>
+    
+    
+    <summary type="html">对我自己说的</summary>
+    
+    
+    
+    <category term="特别的事" scheme="https://myncdw.cn/categories/%E7%89%B9%E5%88%AB%E7%9A%84%E4%BA%8B/"/>
+    
+    
+    <category term="特别的事" scheme="https://myncdw.cn/tags/%E7%89%B9%E5%88%AB%E7%9A%84%E4%BA%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>字符串转Unicode</title>
@@ -84,7 +105,7 @@
     <link href="https://myncdw.cn/2023/04/17/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/"/>
     <id>https://myncdw.cn/2023/04/17/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F/</id>
     <published>2023-04-16T20:58:38.522Z</published>
-    <updated>2023-04-16T07:28:20.766Z</updated>
+    <updated>2023-06-16T09:26:00.431Z</updated>
     
     <content type="html"><![CDATA[<h1 id="建站成功"><a href="#建站成功" class="headerlink" title="建站成功"></a>建站成功</h1><h2 id="挫折"><a href="#挫折" class="headerlink" title="挫折"></a>挫折</h2><p>1.刚开始没找到GitHub page这个选项，以为是网络问题，然后花了30分钟的时间发现是我仓库名少打了一个点；</p><p>2.设置next主题的时候在挑选主题时老是选2个，然后报错的时候还不知道原因，在网上找了半天没结果，最后才发现这个问题；</p><p>3.买域名的时候因为没有经验，顺手买了一个阿里云的icp备案服务码，结果问了才知道不要买；</p><p>4.最令人崩溃的是快要收尾的时候不知道犯了什么错，网页打开一片白，只好从头再来；</p><p>5.从头再来之后部署来必力，在填uid的地方多打了一个空格，然后花了2个小时来找问题。</p><h2 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h2><p>成就感十足，感觉自己完成了一件大事（对于一个在上学的初三学生来说，用这么点时间来做一个个人博客太难了）。</p><p>其实建个人博客这个想法很久之前我就有了，只不过当时没有这个能力（懒），所以一直拖到现在。之前在<a href="http://www.zhuzi.me/">竹子建站</a>上面做过一个小网站，但是感觉自己没干啥事，所以做完这个网站时候我并没有满足。</p><h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><p>感谢知乎大佬<a href="https://www.zhihu.com/people/mai-nv-hai-de-xiao-huo-chai-35-19">枫叶</a>的教程，写的特别详细<a href="https://zhuanlan.zhihu.com/p/102592286">这是教程</a>。</p><p>还有支持我的家人们</p><p>最后是那些帮忙测试的同学</p><p>谢谢大家的支持！</p>]]></content>
     
